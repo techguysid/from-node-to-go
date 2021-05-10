@@ -8,6 +8,6 @@ http.createServer(function (req, res) {
  }else{
     res.write(JSON.stringify({'message':'You have hit something other than /a'}))
     res.end()
- }}).listen(8080, function(){
- console.log("server start at port 8080"); //the server object listens on port 3000
+ }}).listen(8081, function(){
+ console.log("server start at port 8081"); //the server object listens on port 3000
 });
